@@ -48,7 +48,7 @@ export const addSmurf = (smurf) => {
 
     newSmurf.then(({data})=>{
       dispatch({
-        type: ADDING_SMURF,
+        type: ADD_SMURF,
         payload: data
       });
     })
